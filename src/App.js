@@ -6,7 +6,6 @@ function App() {
       <div className="container">
         <div className="Header">
           <div className="leftHeader">
-            {" "}
             <img src="/images/Horizontal Logo 1.png" />
           </div>
           <div className="rightHeader">
@@ -19,7 +18,7 @@ function App() {
         <div className="title">
           Title Line <br /> Comes Here
         </div>
-        <div className="subtitle">Subtitle if there is any</div>
+        <div className="subtitle">Subtitle if there is any..</div>
         <div className="subTobe">
           <div>Subtitle To Be Here</div>
         </div>
@@ -38,7 +37,7 @@ function App() {
             16<span className="pluseIcon">+</span> Cohorts
           </div>
           <div>
-            360<span className="pluseIcon">+</span> Deployed Candidates
+            360<span className="pluseIcon">+</span> <br /> Deployed Candidates
           </div>
           <div>
             40<span className="pluseIcon">+</span> Clients

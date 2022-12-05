@@ -11,8 +11,7 @@
   background-color: white;
   display: flex;
   justify-content: space-between;
-  /* padding-left: 73px;
-  padding-right: 73px; */
+
   align-items: center;
 }
 .leftHeader {
@@ -28,7 +27,7 @@
 .hand {
   position: absolute;
   left: 0;
-  top: 200px;
+  top: 280px;
   height: 40px;
   width: 40px;
 }
@@ -51,7 +50,7 @@
 .s {
   position: absolute;
   left: -110px;
-  top: 150px;
+  top: 210px;
   height: 40px;
   width: 40px;
 }
@@ -87,11 +86,11 @@
   font-weight: 600;
   font-size: 30px;
   line-height: 35px;
-  /* or 88% */
 
   color: #ece9e9;
   margin-top: 80px;
   margin-left: 76px;
+  z-index: 10;
 }
 .subTobe {
   display: flex;
@@ -108,26 +107,24 @@
   display: flex;
   justify-content: flex-end;
   margin-top: 10px;
-  /* padding-right: 100px; */
+
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 25px;
-  /* or 200% */
+
   width: 500px;
   letter-spacing: 0.03em;
 
   color: #f2f2f2;
-  /* position: absolute;
-  z-index: 10; */
+
   padding-left: 450px;
 }
 .bottom {
   display: flex;
   justify-content: space-between;
   color: white;
-  /* position: absolute;
-  z-index: 10; */
+
   margin-top: 150px;
   margin-left: 80px;
   margin-right: 80px;
